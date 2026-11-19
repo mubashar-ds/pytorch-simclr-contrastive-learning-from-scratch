@@ -2,19 +2,18 @@
 
 ## Overview
 
-This assignment implements SimCLR for self supervised representation learning on CIFAR10 dataset using PyTorch.
+This project implements **SimCLR** (A Simple Framework for Contrastive Learning of Visual Representations) for self-supervised representation learning on the **CIFAR-10** dataset using **PyTorch**.
 
-The assignment includes:
+Key components include:
 
-- Supervised baseline training using 10% labeled data
-- SimCLR data augmentation
-- Similarity analysis before & after training
-- SimCLR contrastive pretraining
-- Linear probe evaluation
-- Fine-tuning evaluation
-- PCA feature visualization
-- Confusion matrix generation
-- Metrics and prediction export
+* Supervised baseline training using 10% labeled data
+* SimCLR stochastic data augmentation pipeline
+* Cosine similarity analysis before & after contrastive training
+* SimCLR contrastive pretraining (NT-Xent loss)
+* Linear probe evaluation
+* End-to-end fine-tuning evaluation
+* PCA embedding visualization
+* Confusion matrix generation & automated metrics export
 
 ## Environment
 
