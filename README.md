@@ -1,4 +1,4 @@
-# Assignment 5: From Supervised Learning to Self-Supervised Learning
+# SimCLR: Self-Supervised Representation Learning
 
 ## Overview
 
